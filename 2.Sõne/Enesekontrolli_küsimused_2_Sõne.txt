@@ -1,1 +1,52 @@
-
+1. Milline koodirida teeb Puhhile uue korrektse tervituse? (õigeid vastusevariante võib olla mitu)
+parandatud_tervitus = tervitus.replace("il", "lj").replace("n","nn")
+parandatud_tervitus = "Palju õnne sünnipäevaks, Notsu!"
+----
+2. Mis prinditakse konsooli alljärgneva koodirea käivitamisel? text = "tunnikontroll" print(text == text[0: len(text): 1]).
+True
+----
+3. Mida tähendab, kui öeldakse, et sõne on muutumatu (immutable)?
+Sõne väärtust ei saa muuta pärast selle loomist. Selle asemel tuleb luua uus sõne, kuhu muudatused salvestuvad
+----
+4. Kas alljärgne väide on tõene või väär? Sõne pikkus on alati võrdne sõne viimase tähemärgi indeksiga?
+Väär
+----
+5. Kuidas saab Pythonis kontrollida ühe sõne või tähemärgi teise sõnesse kuuluvust? Näiteks kui oleks vaja kontrollida, kas sõne "cat" esineb sõnes "catastrophe".
+Kasutades in märksõna, nagu "cat" in "catastrophe"
+----
+6. Meil on antud sõne: tervitus = "Tere progesõbrad" Vii kokku sõnega tehtud operatsioon ja selle väljund.
+len(tervitus) | 16
+tervitus[-4] | b
+tervitus.index("g") | 8
+tervitus[0:3:2] | Tr
+tervitus.index("t") | ValueError
+----
+7. Millised järgnevatest väidetest on tõesed sõne viilutamise kohta Pythonis?
+[start] on indeks, millest viilutamist alustatakse, see element arvatakse loodavasse alamsõnesse
+Sõnedest on võimalik saada alamsõnesid[] operaatoriga ning süntaks alamsõne leidmiseks on [start:stop:step]
+[stop] on indeks, millel viilutamine lõpetatakse, seda elementi ei arvata loodavasse alamsõnasse
+[step] on sammu suurus iteerimisel, vaikimisi on see 1
+----
+8. Vii õige sisend ja väljund omavahel kokku. arvamus = "see test on nii LAHE!"
+arvamus.swapcase() | SEE TEST ON NII lahe!
+arvamus.upper() | SEE TEST ON NII LAHE!
+arvamus.capitalize() | See tezt on nii lahe!
+arvamus.title() | See Test On Nii Lahe!
+----
+9. Mis prinditakse konsooli järgneva koodirea käivitamisel? print("noStringsAttached"[4:8] * 3)
+ringringring
+----
+10. Millised järgnevatest väidetest on tõesed sõne indeksi kohta Pythonis?
+Esimese tähemärgi indeks sõnes on 0
+Viimase tähemärgi indeks sõnes on len(string) - 1
+----
+11. Milliseid Pythoni sisseehitatud meetodeid saab kasutada selleks, et saada teada sõnes esimese leitud alamsõne indeks?
+find()
+index()
+----
+12. Kas alljärgnev avaldis annab väljundiks Tõene (True) või Väär(False) loom = "elevant" print(len(loom) == loom.index("t"))
+Väär
+----
+13. Milline sümbol tähendab Pythonis reavahetust?
+"\n"
+----
