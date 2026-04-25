@@ -1,0 +1,71 @@
+1. Millised avaldised tagastavad False?
+45 < 9
+548332 == 942345
+891237895 != 891237895
+----
+2. Millised matemaatilised avaldised ei vaja math moodulit?
+%
+round(x)
+min(5,9,125)
+----
+3.Vali iga muutuja juurde tema väärtuse õige andmetüüp.
+price = 350.0 | Float(ujukomaarv)
+is_right_handed = True | Boolean(tõeväärtus)
+band = "50 Cent" | String(sõne)
+max_height = 268 | Integer(täisarv)
+car_model = "5000" | String(sõne)
+----
+4. Math.floor(x) ümardab arvu kõige suuremaks täisarvuks, mis on x suhtes võrdne või väiksem.
+----
+5. Math.ceil(x) ümardab arvu kõige väiksemaks täisarvuks, mis on x suhtes võrdne või suurem.
+----
+6. Me soovime sõne teisendada täis- või ujukomaarvuks. Kas see on Pythonis võimalik?
+Jah, kui sõne sisuks on korrektne arv
+----
+7. Millised laused tagastavad True?
+3>=2
+1.1 != 1.0
+----
+8. Pythoni trigonomeetrilised funktsioonid (nt: math.sin(x), math.cos(x)) kasutavad sisendina radiaane.
+Tõene
+----
+9. Pythoni trigonomeetrilised funktsioonid (nt: math.sin(x), math.cos(x)) kasutavad sisendina kraade.
+Väär
+----
+10. Milline aritmeetiline avaldis annab väljundiks 10.0?
+(2  ** 3 + 4) 2 + 4
+----
+11. Millises arvusüsteemis arvuti tööd teeb?
+Kahendsüsteemis
+----
+12. Millised valikutest on Pythoni arvu?
+int("-193284")
+-93810.10
+float("1289")
+12
+56798.183
+----
+13. Vii kokku aritmeetiline operaator ja selle lihtsustatud kirjeldus
+/ | Operatsioon, mis on kasulik, kui soovid saada kahe arvu jagamisel täpset tulemuse, sealhulgas murdosa(komakohad)
+<= | Operatsioon, mis on kasulik, kui soovid kontrollida, kas üks arv on teise arvuga võrdne või väiksem
++= | Operatsioon, mis on kasulik, kui soovid liita ühe arvu teise arvu väärtusele ja salvestada tulemuse samasse muutujasse
+// | Operatsioon, mis on kasulik, kui soovid teada saada, mitu korda mahub üks arv teise sisse ilma ülejäägita
+% | Operatsioon, mis võtab kaks arvu ja tagastab nende jagamisel üle jääva osa(või operatsioon, mis aitab leida, kui palju jaab üle pärast jagamist)
+----
+14. Millised valikutest on Pythoni matemaatilised operatsioonid?
+<=
+**
+>=
+/=
+//
+%
+----
+15. Kas järgmine väide on tõene või väär? Ujukomaarvu teisendamisel täisarvuks murdosa kaotatakse. Näitena: int(15.8) = 15
+Tõene
+----
+16. Millised avaldiseed tagastavad False?
+548332 == 942345
+12 // 34
+891237895 != 891237895
+45 < 9
+----
